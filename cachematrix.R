@@ -1,8 +1,11 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+## The function makeCacheMatrix returns alist of functions for matrix "x" associated with a particular environment.
+## The function cacheSolve calculates the inverse matrix of matrix x and caches it in the environment associated to x. When we search for the inverse of x
+## it searches in the environment of x and if found returns else calculates and caches.
 
 ## Write a short comment describing this function
-## This function returns a list of functions associated with a specific envirnment 
+## This function returns a list of functions associated with a specific environment 
 
 makeCacheMatrix <- function(x = matrix()) {
                    I <- NULL
